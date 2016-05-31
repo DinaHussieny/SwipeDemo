@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BEBE9FB8381422222F93F22 /* libPods-SwipeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72987707E7263B2EE452D9DE /* libPods-SwipeDemo.a */; };
 		CA79DBBB1CFC68C400F53FF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DBBA1CFC68C400F53FF5 /* main.m */; };
 		CA79DBBE1CFC68C400F53FF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DBBD1CFC68C400F53FF5 /* AppDelegate.m */; };
-		CA79DBC11CFC68C400F53FF5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DBC01CFC68C400F53FF5 /* MasterViewController.m */; };
-		CA79DBC41CFC68C400F53FF5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DBC31CFC68C400F53FF5 /* DetailViewController.m */; };
-		CA79DBC71CFC68C400F53FF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA79DBC51CFC68C400F53FF5 /* Main.storyboard */; };
 		CA79DBC91CFC68C400F53FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA79DBC81CFC68C400F53FF5 /* Assets.xcassets */; };
 		CA79DBCC1CFC68C400F53FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA79DBCA1CFC68C400F53FF5 /* LaunchScreen.storyboard */; };
 		CA79DBD71CFC68C400F53FF5 /* SwipeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DBD61CFC68C400F53FF5 /* SwipeDemoTests.m */; };
 		CA79DBE21CFC68C400F53FF5 /* SwipeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DBE11CFC68C400F53FF5 /* SwipeDemoUITests.m */; };
+		CA79DBF11CFC693600F53FF5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DBF01CFC693600F53FF5 /* FirstViewController.m */; };
+		CA79DC1E1CFC6DC900F53FF5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DC1D1CFC6DC900F53FF5 /* SecondViewController.m */; };
+		CA79DC211CFC6DDC00F53FF5 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DC201CFC6DDC00F53FF5 /* ThirdViewController.m */; };
+		CA79DC241CFC852F00F53FF5 /* SwipeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DC231CFC852F00F53FF5 /* SwipeCollectionViewController.m */; };
+		CA79DC271CFC8BF300F53FF5 /* SwipeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DC261CFC8BF300F53FF5 /* SwipeCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		204415233E90BC3CE239728E /* Pods-SwipeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeDemo/Pods-SwipeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6C644E3F137FBA78E7FC960E /* Pods-SwipeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeDemo/Pods-SwipeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		72987707E7263B2EE452D9DE /* libPods-SwipeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwipeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA79DBB61CFC68C400F53FF5 /* SwipeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA79DBBA1CFC68C400F53FF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA79DBBC1CFC68C400F53FF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA79DBBD1CFC68C400F53FF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA79DBBF1CFC68C400F53FF5 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		CA79DBC01CFC68C400F53FF5 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		CA79DBC21CFC68C400F53FF5 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		CA79DBC31CFC68C400F53FF5 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		CA79DBC61CFC68C400F53FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA79DBC81CFC68C400F53FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA79DBCB1CFC68C400F53FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA79DBCD1CFC68C400F53FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +55,16 @@
 		CA79DBDD1CFC68C400F53FF5 /* SwipeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA79DBE11CFC68C400F53FF5 /* SwipeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeDemoUITests.m; sourceTree = "<group>"; };
 		CA79DBE31CFC68C400F53FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA79DBEF1CFC693600F53FF5 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CA79DBF01CFC693600F53FF5 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CA79DC1C1CFC6DC900F53FF5 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CA79DC1D1CFC6DC900F53FF5 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CA79DC1F1CFC6DDC00F53FF5 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		CA79DC201CFC6DDC00F53FF5 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		CA79DC221CFC852F00F53FF5 /* SwipeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeCollectionViewController.h; sourceTree = "<group>"; };
+		CA79DC231CFC852F00F53FF5 /* SwipeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeCollectionViewController.m; sourceTree = "<group>"; };
+		CA79DC251CFC8BF300F53FF5 /* SwipeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeCollectionViewCell.h; sourceTree = "<group>"; };
+		CA79DC261CFC8BF300F53FF5 /* SwipeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BEBE9FB8381422222F93F22 /* libPods-SwipeDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		306FA5A64270EDB671EACC04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C644E3F137FBA78E7FC960E /* Pods-SwipeDemo.debug.xcconfig */,
+				204415233E90BC3CE239728E /* Pods-SwipeDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CA79DBAD1CFC68C400F53FF5 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +109,8 @@
 				CA79DBD51CFC68C400F53FF5 /* SwipeDemoTests */,
 				CA79DBE01CFC68C400F53FF5 /* SwipeDemoUITests */,
 				CA79DBB71CFC68C400F53FF5 /* Products */,
+				306FA5A64270EDB671EACC04 /* Pods */,
+				DD66D60393BB45C4FF16194B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,11 +129,16 @@
 			children = (
 				CA79DBBC1CFC68C400F53FF5 /* AppDelegate.h */,
 				CA79DBBD1CFC68C400F53FF5 /* AppDelegate.m */,
-				CA79DBBF1CFC68C400F53FF5 /* MasterViewController.h */,
-				CA79DBC01CFC68C400F53FF5 /* MasterViewController.m */,
-				CA79DBC21CFC68C400F53FF5 /* DetailViewController.h */,
-				CA79DBC31CFC68C400F53FF5 /* DetailViewController.m */,
-				CA79DBC51CFC68C400F53FF5 /* Main.storyboard */,
+				CA79DC221CFC852F00F53FF5 /* SwipeCollectionViewController.h */,
+				CA79DC231CFC852F00F53FF5 /* SwipeCollectionViewController.m */,
+				CA79DC251CFC8BF300F53FF5 /* SwipeCollectionViewCell.h */,
+				CA79DC261CFC8BF300F53FF5 /* SwipeCollectionViewCell.m */,
+				CA79DBEF1CFC693600F53FF5 /* FirstViewController.h */,
+				CA79DBF01CFC693600F53FF5 /* FirstViewController.m */,
+				CA79DC1C1CFC6DC900F53FF5 /* SecondViewController.h */,
+				CA79DC1D1CFC6DC900F53FF5 /* SecondViewController.m */,
+				CA79DC1F1CFC6DDC00F53FF5 /* ThirdViewController.h */,
+				CA79DC201CFC6DDC00F53FF5 /* ThirdViewController.m */,
 				CA79DBC81CFC68C400F53FF5 /* Assets.xcassets */,
 				CA79DBCA1CFC68C400F53FF5 /* LaunchScreen.storyboard */,
 				CA79DBCD1CFC68C400F53FF5 /* Info.plist */,
@@ -145,6 +173,14 @@
 			path = SwipeDemoUITests;
 			sourceTree = "<group>";
 		};
+		DD66D60393BB45C4FF16194B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72987707E7263B2EE452D9DE /* libPods-SwipeDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA79DBE61CFC68C400F53FF5 /* Build configuration list for PBXNativeTarget "SwipeDemo" */;
 			buildPhases = (
+				AB2418A7765B28BC3A6D8BBA /* 📦 Check Pods Manifest.lock */,
 				CA79DBB21CFC68C400F53FF5 /* Sources */,
 				CA79DBB31CFC68C400F53FF5 /* Frameworks */,
 				CA79DBB41CFC68C400F53FF5 /* Resources */,
+				ACE6BEFEE373973022F9658E /* 📦 Embed Pods Frameworks */,
+				50577B85DB08BB8AFCD7FCD0 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,7 +289,6 @@
 			files = (
 				CA79DBCC1CFC68C400F53FF5 /* LaunchScreen.storyboard in Resources */,
 				CA79DBC91CFC68C400F53FF5 /* Assets.xcassets in Resources */,
-				CA79DBC71CFC68C400F53FF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +308,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50577B85DB08BB8AFCD7FCD0 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeDemo/Pods-SwipeDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB2418A7765B28BC3A6D8BBA /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE6BEFEE373973022F9658E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeDemo/Pods-SwipeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA79DBB21CFC68C400F53FF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA79DC1E1CFC6DC900F53FF5 /* SecondViewController.m in Sources */,
+				CA79DC211CFC6DDC00F53FF5 /* ThirdViewController.m in Sources */,
 				CA79DBBE1CFC68C400F53FF5 /* AppDelegate.m in Sources */,
-				CA79DBC11CFC68C400F53FF5 /* MasterViewController.m in Sources */,
+				CA79DC271CFC8BF300F53FF5 /* SwipeCollectionViewCell.m in Sources */,
+				CA79DC241CFC852F00F53FF5 /* SwipeCollectionViewController.m in Sources */,
+				CA79DBF11CFC693600F53FF5 /* FirstViewController.m in Sources */,
 				CA79DBBB1CFC68C400F53FF5 /* main.m in Sources */,
-				CA79DBC41CFC68C400F53FF5 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +403,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CA79DBC51CFC68C400F53FF5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA79DBC61CFC68C400F53FF5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CA79DBCA1CFC68C400F53FF5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -417,6 +498,7 @@
 		};
 		CA79DBE71CFC68C400F53FF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C644E3F137FBA78E7FC960E /* Pods-SwipeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwipeDemo/Info.plist;
@@ -428,6 +510,7 @@
 		};
 		CA79DBE81CFC68C400F53FF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204415233E90BC3CE239728E /* Pods-SwipeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwipeDemo/Info.plist;
@@ -504,6 +587,7 @@
 				CA79DBE81CFC68C400F53FF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA79DBE91CFC68C400F53FF5 /* Build configuration list for PBXNativeTarget "SwipeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +596,7 @@
 				CA79DBEB1CFC68C400F53FF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA79DBEC1CFC68C400F53FF5 /* Build configuration list for PBXNativeTarget "SwipeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +605,7 @@
 				CA79DBEE1CFC68C400F53FF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
